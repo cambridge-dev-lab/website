@@ -14,7 +14,6 @@ html {
 body {
   color: #1a1a1a;
   background: #fff;
-  width: 100%;
 }
 
 /* NAV */
@@ -98,13 +97,13 @@ main {
   line-height: 1.1;
 }
 
-.hero-left .subtitle {
+.hero-left .hero-subtitle {
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: rgba(0,0,0,0.9);
-  margin-bottom: 1.4rem;
+  margin: 0 0 1.4rem 0;
 }
 
 .hero-left p {
@@ -117,11 +116,7 @@ main {
 .hero-image {
   flex: 0 0 42%;
   max-width: 42%;
-  margin-top: -1rem;
   margin-top: -0.5rem;
-}
-
-.hero-image {
   overflow: hidden;
 }
 
@@ -175,7 +170,6 @@ main {
 .info-item .icon::before {
   position: absolute;
   content: '';
-  background-color: rgba(157, 199, 30, 0.463);
   background-color: rgba(157, 199, 30, 0.6);
   width: 100%;
   height: 100%;
@@ -189,10 +183,6 @@ main {
   width: 100%;
   height: 100%;
   opacity: 0.7;
-}
-
-.info-item .label {
-  font-size: 0.92rem;
 }
 
 .info-item .label {
@@ -294,7 +284,6 @@ a {
 /* DISCORD BUTTON */
 a.btn-discord {
   display: inline-block;
-  background-color: rgba(65, 81, 173, 0.95);
   background-color: rgba(0,0,0,0.7);
   color: #fff;
   text-decoration: none;
@@ -309,7 +298,6 @@ a.btn-discord {
 }
 
 .btn-discord:hover {
-  background-color: rgb(49, 65, 159);
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -318,3 +306,4 @@ a.btn-discord {
     min-width: calc(100% - 1.7rem);
   }
 }
+

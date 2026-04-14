@@ -1,24 +1,21 @@
+.events-page .hero {
+  margin-bottom: 1.5rem;
+}
 .events-page .hero-image img {
   margin: -15% -3% 0 -5%; 
   width: 105%;
 }
-.events-page .hero {
-  margin-bottom: 1.5rem;
-}
-
 h1.events-title {
   font-size: min(2rem, 9vw);
   line-height: min(2.4rem, 11vw);
   font-weight: 700;
 }
 p.events-subtitle {
- font-size: 1.07rem;
- line-height: 1.7rem;
- font-weight: 500;
- color: rgba(0,0,0,0.85);
- color: rgba(0,0,0,1);
- margin-top: 0.5rem;
- padding-right: 2rem;
+  font-size: 1.07rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  color: rgba(0,0,0,1);
+  margin-top: 0.5rem;
 }
 
 .strong {
@@ -36,11 +33,6 @@ p.events-subtitle {
 }
 .events-page .about li {
   font-size: 1rem;
-}
-.about h2 .material-symbols-outlined {
-  font-size: 1.1rem;
-  position: relative;
-  top: 0.3rem;
 }
 
 @media (max-width: 680px) {

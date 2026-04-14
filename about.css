@@ -1,0 +1,16 @@
+.main_about {
+  margin-top: min(4rem, 8dvh);
+}
+.subtitle {
+  margin: unset;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.9);
+  margin-bottom: 0.5rem;
+}
+
+.section_about {
+  margin-bottom: 2rem;
+}
