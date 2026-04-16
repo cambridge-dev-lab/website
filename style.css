@@ -56,46 +56,6 @@ p {
 }
 
 
-/* NAV */
-nav {
-  display: flex;
-  justify-content:space-between;
-  padding: 14px min(8rem, 10vw);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  color: rgb(26, 26, 26);
-}
-
-.nav-left {
-  display: flex;
-  gap: 2rem;
-}
-.nav-right {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-text {
-  text-decoration: none;
-}
-@media (max-width: 480px) {
-  .nav-text:not(.logo) { display: none; }
-}
-.nav-icon {
-  display: flex;
-  align-items: center;
-}
-.nav-icon img {
-  width: 22px;
-  height: 22px;
-  opacity: 0.8;
-}
-.logo {
-  font-weight: 700;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-
 /* MAIN */
 main {
   position: relative; /* for events page */
