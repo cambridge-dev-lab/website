@@ -9,92 +9,92 @@
   <link rel="icon" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;550;600;650;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;550;600;650;700;800&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="brand">DevLab</a>
-  <a href="events.html" class="nav-link">Events</a>
-  <!--<a href="about.html" class="nav-link">About</a>-->
-  <a href="https://cambridge-dev.com/program" target="_blank" class="nav-link">Program</a>
-  <span class="spacer"></span>
-  <div class="nav-icons">
-    <a href="https://discord.gg/wAMEqRMbdm" target="_blank" aria-label="Discord">
-      <img src="images/discord.svg" alt="Discord" />
-    </a>
-    <a href="https://www.meetup.com/boston-web-dev-class" target="_blank" aria-label="Meetup">
-      <img src="images/meetup.svg" alt="Meetup" />
-    </a>
-  </div>
-</nav>
-
-<main>
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-left">
-      <h1>Cambridge Dev Lab</h1>
-      <h2 class="hero-subtitle">Coding classes & Community Building</h2>
-      <p>
-        We are a volunteer group hosting free coding classes in Cambridge, MA. 
-        All skill levels are welcome — whether you're a complete beginner, 
-        an experienced developer who wants to share your knowledge, 
-        or someone looking for a community and coworking space.
-      </p>
+  <nav>
+    <div class="nav-left">
+      <a href="index.html" class="nav-text logo">DevLab</a>
+      <a href="events.html" class="nav-text">Events</a>
+      <!--<a href="about.html" class="nav-text">About</a>-->
+      <a href="https://cambridge-dev.com/program" target="_blank" class="nav-text">Program</a>
     </div>
-
-    <div class="hero-image">
-      <img src="https://devclass-org.s3.us-east-2.amazonaws.com/devclass_group_photo_3.png" alt="Free Software Development / Coding Classes in Cambridge." />
+    <div class="nav-right">
+      <a href="https://discord.gg/wAMEqRMbdm" class="nav-icon" target="_blank" aria-label="Discord">
+        <img src="images/discord.svg" alt="Discord" />
+      </a>
+      <a href="https://www.meetup.com/boston-web-dev-class" class="nav-icon" target="_blank" aria-label="Meetup">
+        <img src="images/meetup.svg" alt="Meetup" />
+      </a>
     </div>
-  </section>
+  </nav>
 
-  <!-- INFO + ABOUT GRID -->
-  <div class="content-grid">
-    <div class="content-col">
-      <div class="info-item">
-        <div class="icon">
-          <img src="images/comment.svg" alt="" />
-        </div>
-        <div>
-          <strong class="label">Contacts</strong>
-          <span>
-            <a href="mailto:info@cambridge-dev.com">info@cambridge-dev.com</a>,
-            <a href="https://discord.gg/wAMEqRMbdm">Discord</a>,
-            <a href="mailto:dolgareva.ma@gmail.com">dolgareva.ma@gmail.com</a> Maria Dolgareva
-          </span>
-        </div>
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="h1">Cambridge Dev Lab</h1>
+        <h2 class="h2">Coding classes & Community Building</h2>
+        <p class="hero-description">
+          We are a volunteer group hosting free coding classes in Cambridge, MA. 
+          All skill levels are welcome — whether you're a complete beginner, 
+          an experienced developer who wants to share your knowledge, 
+          or someone looking for a community and coworking space.
+        </p>
+      </div>
+      <div class="hero-right">
+        <img src="https://devclass-org.s3.us-east-2.amazonaws.com/devclass_group_photo_3.png" alt="Free Software Development / Coding Classes in Cambridge." />
+      </div>
+    </section>
+
+    <div class="content-grid">
+
+      <div class="content-col">
+        <section class="info-item">
+          <div class="info-icon">
+            <img src="images/comment.svg" />
+          </div>
+          <div>
+            <h3 class="h3">Contacts</h3>
+            <span>
+              <a href="mailto:info@cambridge-dev.com">info@cambridge-dev.com</a>,
+              <a href="https://discord.gg/wAMEqRMbdm">Discord</a>,
+              <a href="mailto:dolgareva.ma@gmail.com">dolgareva.ma@gmail.com</a> Maria Dolgareva
+            </span>
+          </div>
+        </section>
+
+        <section class="info-item">
+          <div class="info-icon">
+            <img src="images/calendar-day.svg" />
+          </div>
+          <div>
+            <h3 class="h3">Events</h3>
+            <span>            
+              Coding meetups every Monday and Wednesday.
+              See the <a href="events.html">schedule</a> for details.<br>
+            </span>
+          </div>
+        </section>
       </div>
 
-      <div class="info-item">
-        <div class="icon">
-          <img src="images/calendar-day.svg" alt="" />
-        </div>
-        <div>
-          <strong class="label">Events</strong>
-          <span>            
-            Coding meetups every Monday and Wednesday.
-            See the <a href="events.html">schedule</a> for details.<br>
-          </span>
-        </div>
+      <div class="content-col">
+        <section class="about">
+          <h3 class="h3">About coding classes:</h3>
+          <ul class="list">
+            <li>learn programming basics and web development</li>
+            <li>get help with your coding homework</li>
+            <li>hang out and meet your neighbors</li>
+            <li>bring your own projects or cowork with others</li>
+            <li>help build a welcoming community around free education</li>
+          </ul>
+        </section>
       </div>
-    </div>
 
-    <div class="content-col">
-      <section class="about">
-        <h2>About coding classes:</h2>
-        <ul>
-          <li>learn programming basics and web development</li>
-          <li>get help with your coding homework</li>
-          <li>hang out and meet your neighbors</li>
-          <li>bring your own projects or cowork with others</li>
-          <li>help build a welcoming community around free education</li>
-        </ul>
-      </section>
     </div>
-  </div>
-</main>
+  </main>
 
 </body>
 </html>
