@@ -21,6 +21,8 @@ nav {
 }
 @media (max-width: 480px) {
   .nav-hide-mobile { display: none; }
+  .nav-left { gap: 1.5rem; }
+  .nav-right { gap: 1.8rem; }
 }
 
 .nav-icon {
@@ -38,54 +40,3 @@ nav {
   text-decoration: none;
 }
 
-
-/* AI_ MOBILE MENU */
-.nav-mobile-btn {
-  all:unset;
-  display: none;
-  cursor: pointer;
-  color: inherit;
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 0.7;
-}
-
-.nav-mobile {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 13rem;
-  background: #fff;
-  border-right: 1px solid rgba(0,0,0,0.1);
-  padding: 3.5rem 2rem 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  transform: translateX(-100%);
-  transition: transform 0.22s ease;
-  z-index: 200;
-}
-.nav-mobile.open {
-  transform: translateX(0);
-}
-.nav-mobile a {
-  font-size: 0.9rem;
-  font-weight: 600;
-  /* text-transform: uppercase; */
-  letter-spacing: 0.5px;
-  text-decoration: none;
-}
-.mobile-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.25);
-  z-index: 199;
-}
-.mobile-overlay.open {
-  display: block;
-}
-body.menu-open {
-  overflow: hidden;
-}

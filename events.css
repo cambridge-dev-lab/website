@@ -45,6 +45,29 @@
   }
 }
 
+.events-room {
+  font-size: 0.94rem;
+  font-style: italic;
+}
+@media (max-width: 480px) {
+  .hero_events .h1 {
+    font-size: min(1.7rem, 9vw);
+    line-height: min(2.1rem, 11vw);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .events-days {
+    display: block;
+    line-height: 1.35rem;
+  }
+  .events-room {
+    margin-left: 0rem;
+    font-size: 0.94rem;
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+}
+
 /* DISCORD BUTTON */
 .btn-discord {
   display: inline-block;
