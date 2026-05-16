@@ -43,14 +43,10 @@
 
   <nav>
     <div class="nav-left">
-      <button class="nav-mobile-btn" aria-label="Open menu" onclick="toggleMenu()">
-        <!--<span class="material-symbols-rounded">menu</span>-->
-        <span class="nav-text logo">DevLab</span>
-      </button>
-      <a href="/" class="nav-text logo">DevLab</a>
+      <a href="/" class="nav-text logo nav-hide-mobile">DevLab</a>
       <a href="/events" class="nav-text">Events</a>
       <a href="/about" class="nav-text">About</a>
-      <a href="https://cambridge-dev.com" target="_blank" class="nav-text">Program</a>
+      <a href="https://cambridge-dev.com" target="_blank" class="nav-text nav-hide-mobile">Program</a>
     </div>
     <div class="nav-right">
       <a href="https://discord.gg/wAMEqRMbdm" class="nav-icon" target="_blank" aria-label="Discord">
@@ -62,13 +58,6 @@
     </div>
   </nav>
 
-  <div class="nav-mobile" id="nav-mobile">
-    <a href="/">Home</a>
-    <a href="/events">Events</a>
-    <a href="/about">About</a>
-    <a href="https://cambridge-dev.com" target="_blank">Program</a>
-  </div>
-  <div class="mobile-overlay" id="mobile-overlay" onclick="toggleMenu()"></div>
 
   <main>
     <section class="hero">
@@ -138,6 +127,5 @@
     </div>
   </main>
 
-<script src="menu.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ nav {
   text-decoration: none;
 }
 @media (max-width: 480px) {
-  .nav-text:not(.logo) { display: none; }
+  .nav-hide-mobile { display: none; }
 }
 
 .nav-icon {
@@ -48,10 +48,6 @@ nav {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 0.7;
-}
-@media (max-width: 480px) {
-  .nav-mobile-btn { display: block; }
-  a.logo { display: none; }
 }
 
 .nav-mobile {
