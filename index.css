@@ -1,0 +1,13 @@
+.hero-home {
+  row-gap: 1rem;
+}
+.hero-home .hero-right {
+  margin-top: 6px;
+}
+.hero-home img {
+  margin-top: -1px;
+}
+
+
+
+

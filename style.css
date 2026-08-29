@@ -174,3 +174,54 @@ main {
 
 
 
+
+.mobile-only {
+  display: none;
+}
+@media (max-width: 520px) {
+  .mobile-only {
+    display: inline-block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+
+
+/* DISCORD BUTTON */
+.btn-action {
+  display: inline-block;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.4rem 1.5rem;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 0.3rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.3rem;
+  min-width: 7rem;
+  text-align: center;
+  margin-right: 0.2rem;
+}
+.btn-action:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+@media (max-width: 520px) {
+  .btn-action {
+    min-width: calc(100% - 0rem);
+  }
+}
+
+.btn-action_secondary {
+  background-color: white;
+  color: rgba(0,0,0,0.8);
+  border: 1px solid rgba(0,0,0,0.8);
+}
+.btn-action_secondary:hover {
+  background-color: rgba(0,0,0,0.8);
+  border-color: rgba(0,0,0,0);
+  color: white;
+}

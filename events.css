@@ -60,6 +60,10 @@
     display: block;
     line-height: 1.35rem;
   }
+  .events-contacts {
+    display: block;
+    line-height: 1.37rem; 
+  }
   .events-room {
     margin-left: 0rem;
     font-size: 0.94rem;
@@ -68,26 +72,10 @@
   }
 }
 
-/* DISCORD BUTTON */
-.btn-discord {
-  display: inline-block;
-  background-color: rgba(0,0,0,0.7);
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1rem;
-  padding: 0.4rem 2rem;
-  border-radius: 0.3rem;
-  margin-top: 0.35rem;
-  margin-bottom: 0.3rem;
-  min-width: 10rem;
-  text-align: center;
+.btn-action {
+  padding: 0.4rem 1.5rem;
+  margin-bottom: 0.2rem;
 }
-.btn-discord:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-@media (max-width: 520px) {
-  .btn-discord {
-    min-width: calc(100% - 1.7rem);
-  }
+.btn-action {
+  min-width: calc(100% - 0rem);
 }
