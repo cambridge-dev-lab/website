@@ -5,3 +5,26 @@
 .main_about section {
   margin-bottom: 2rem;
 }
+
+.about-photos {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.about-photos img {
+  flex: 1;
+  min-width: 0;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 0.1rem;
+}
+
+.about-photos .about-photo-low {
+  object-position: 50% 70%;
+}
+
+@media (max-width: 680px) {
+  .about-photos { flex-direction: column; }
+  .about-photos img { width: 100%; }
+}
