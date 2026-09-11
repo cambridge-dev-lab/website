@@ -1,0 +1,85 @@
+/* HERO — same proportions as the events hero */
+.hero_saturday {
+  margin-bottom: 1.5rem;
+  row-gap: unset;
+}
+.hero_saturday .hero-right {
+  margin-bottom: -1rem;
+}
+.hero_saturday .hero-right img {
+  margin: -0% -3% -10% -5%;
+  width: 105%;
+  height: 90%;
+  object-fit: cover;
+}
+.hero_saturday .h1 {
+  font-size: min(2rem, 9vw);
+  line-height: min(2.4rem, 11vw);
+  font-weight: 700;
+}
+.hero_saturday .hero-description {
+  font-size: 1.07rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  color: rgba(0,0,0,1);
+  margin-top: 0.5rem;
+}
+
+.saturday-hero-buttons {
+  margin-top: 0.2rem;
+}
+
+
+
+/* LEFT COLUMN */
+.saturday-days {
+  display: block;
+  line-height: 1.4rem;
+}
+.saturday-contacts {
+  display: block;
+  line-height: 1.37rem;
+}
+.saturday-note {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.6);
+}
+
+
+/* on a phone the photo sits under the Apply button as a full-width band */
+@media (max-width: 680px) {
+  .hero_saturday .hero-right {
+    display: block;
+    max-width: 100%;
+    margin: 1.25rem 0 0 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  .hero_saturday .hero-right img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+  }
+  /*
+  .btn-action_apply {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+    */
+}
+@media (min-width: 680px){
+  .btn-action_apply {
+    min-width: 10rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero_saturday .h1 {
+    font-size: min(1.7rem, 9vw);
+    line-height: min(2.1rem, 11vw);
+    margin-bottom: 1rem;
+  }
+}
