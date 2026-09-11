@@ -91,7 +91,10 @@ main {
 }
 
 @media (max-width: 680px) {
-  .hero { flex-direction: column; }
+  .hero {
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
   .hero-right { flex: none; max-width: 100%; margin-top: 0; }
 }
 

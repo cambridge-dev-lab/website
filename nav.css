@@ -19,10 +19,21 @@ nav {
 .nav-text {
   text-decoration: none;
 }
+/* Phone: two rows. Row 1 is the logo and the icons, row 2 is every text link. */
 @media (max-width: 480px) {
   .nav-hide-mobile { display: none; }
-  .nav-left { gap: 1.5rem; }
-  .nav-right { gap: 1.8rem; }
+  nav { flex-wrap: wrap; border-bottom: none; padding-bottom: 0; }
+  .nav-left { display: contents; }
+  .nav-right { gap: 1.8rem; margin-left: auto; }
+  /* line break after row 1; carries the divider, stretched over the nav padding */
+  nav::after {
+    content: '';
+    flex-basis: calc(100% + 2 * min(8rem, 10vw));   /* fills the whole line once the negative margins are applied */
+    order: 1;
+    margin: 14px calc(-1 * min(8rem, 10vw)) 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  .nav-text:not(.logo) { order: 2; font-size: 0.95rem; padding: 12px 0 14px; }
 }
 
 .nav-icon {
