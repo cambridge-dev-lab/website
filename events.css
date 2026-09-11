@@ -1,11 +1,12 @@
 .hero_events {
   margin-bottom: 1.5rem;
+  row-gap: unset;
 }
 .hero_events .hero-right {
   margin-bottom: -1rem;
 }
 .hero_events .hero-right img {
-  margin: -15% -3% 0 -5%; 
+  margin: -15% -3% 0 -5%;
   width: 105%;
 }
 .hero_events .h1 {
@@ -25,26 +26,21 @@
 }
 
 
-/* replace image on mobile */
+/* on a phone the photo sits under the text as a full-width band, same as the bootcamp page */
 @media (max-width: 680px) {
   .hero_events .hero-right {
-    position: absolute;
-    bottom: 2rem;
-    right: 2rem;
-    width: 7.4rem;
-    height: 8rem;
+    display: block;
+    max-width: 100%;
+    margin: 1.25rem 0 0 0;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    max-width: none;
-    flex: none;
   }
-  .hero_events .hero-right img,
-  .hero_events .hero-right picture img {
+  .hero_events .hero-right img {
+    display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: bottom right;
-    margin-top: 0;
-    opacity: 0.9;
+    margin: 0;
+    object-fit: cover;
   }
 }
 
