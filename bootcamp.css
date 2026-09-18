@@ -40,6 +40,11 @@
   display: block;
   line-height: 1.37rem;
 }
+/* lines up with the text of the info items: icon width + gap */
+.saturday-about {
+  padding-left: 2.45rem;
+  font-size: 0.92rem;
+}
 .saturday-note {
   display: block;
   margin-top: 0.35rem;
