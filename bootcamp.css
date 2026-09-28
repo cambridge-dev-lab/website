@@ -69,15 +69,13 @@
     margin: 0;
     object-fit: cover;
   }
-  /*
-  .btn-action_apply {
-    background-color: rgba(0, 0, 0, 0.75);
-  }
-    */
 }
 @media (min-width: 680px){
   .btn-action_apply {
     min-width: 10rem;
+  }
+  .hero_saturday .hero-right {
+    margin-top: 0;
   }
 }
 
