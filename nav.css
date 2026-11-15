@@ -49,6 +49,10 @@ nav {
   width: 18px;
   height: 18px;
 }
+.nav-icon_instagram img {
+  width: 19px;
+  height: 19px;
+}
 .logo {
   font-weight: 700;
   font-size: 1rem;
